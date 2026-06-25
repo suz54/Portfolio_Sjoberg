@@ -1,6 +1,46 @@
 /* CSS by Susan Sjoberg */
 /* Color Palette
-
+Magenta = #9C3962
+Frosted Glass = #B6DDF9
+Pine Green = #054B46
+Pink Sugar = #FFD6D1
+Emerald = #149057
 
 Assistance from Adobe Color and...(add reference books from home)
 */
+
+/* GLOBAL (base) MOBILE FIRST */
+body {
+    background-color: #149057;
+}
+
+header {
+    background-color: #FFD6D1;
+
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+
+}
+
+nav a {
+
+}
+
+nav a:hover {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+/* Media Query (medium) */
