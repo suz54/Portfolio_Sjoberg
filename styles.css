@@ -5,8 +5,9 @@ Frosted Glass = #B6DDF9
 Pine Green = #054B46
 Pink Sugar = #FFD6D1
 Emerald = #149057
+Pink = #F26191
 
-Assistance from Adobe Color and...(add reference books from home)
+Assistance from Adobe Color
 */
 
 /* GLOBAL (base) MOBILE FIRST */
@@ -17,15 +18,20 @@ body {
 }
 
 header {
-    background-color: #FFD6D1;
-    border: solid #149057;
+    background-color: #F26191;
+    border: solid #FFD6D1;
     padding: 1rem;
     text-align: center;
 
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFD6D1;
+}
+
+p {
+    color: #FFD6D1;
 }
 
 nav {
@@ -54,7 +60,7 @@ color: white;
 }
 
 .card-row {
-    border: dotted #149057;
+    border: dotted #FFD6D1;
     padding: 1rem;
     gap: 1rem;
 }
@@ -68,17 +74,14 @@ color: white;
 main {
 background-color: #9C3962;
 padding: 1rem;
-border: solid #149057;
+border: solid #FFD6D1;
 }
 
-footer {
-
-}
 
 /* Media Query (medium) */
 @media screen and (min-width:600px) {
     body {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     header, nav, footer {
         grid-column: 1/-1;
@@ -108,6 +111,6 @@ footer {
         gap: 1rem;
     }
     .card-row section {
-        width: 30%;
+        width: 85%;
     }
 }
